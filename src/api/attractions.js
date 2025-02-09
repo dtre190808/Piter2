@@ -20,7 +20,7 @@ export const fetchAttractionBySlug = async (slug) => {
   return data[0];
 };
 
-// Функция для получения комментариев по slug достопримечательности
+
 export const fetchCommentsBySlug = async (slug) => {
   return fetchData(
     `${COMMENTS_URL}?attractionSlug=${slug}`,
@@ -28,7 +28,7 @@ export const fetchCommentsBySlug = async (slug) => {
   );
 };
 
-// Функция для отправки нового комментария
+
 export const postComment = async (comment) => {
   const response = await fetch(COMMENTS_URL, {
     method: 'POST',
