@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-image: url('https://avatars.mds.yandex.net/get-vertis-journal/4471904/zaglavnoe.jpg_1714026388896/orig'); 
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-top: 40vh;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+.link-button {
+    background-color: #008bfd; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: darkblue;
+    transform: scale(1.1);  
+    transition-delay: 0.2s;
+  }
